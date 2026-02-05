@@ -8,3 +8,5 @@ print(b)
 
 c = [x for x in a for y in b if y == x]
 print(f"The common numbers are: {c}")
+
+#does not account for duplicates; cannot implement such using list comprehensions, for now
