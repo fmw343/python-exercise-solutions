@@ -8,7 +8,7 @@ def check_prime(number):
         print(f"{number} is not a prime.")
         return
     
-    for x in range(2, number - 1):
+    for x in range(2, number):
         if number % x == 0:
             divisors.append(number)
         if len(divisors) > 0:
