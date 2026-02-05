@@ -4,7 +4,7 @@ def get_integer():
 def check_prime(number):
     divisors = []
     
-    if number < 1:
+    if number < 2:
         print(f"{number} is not a prime.")
         return
     
